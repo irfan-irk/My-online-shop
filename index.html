@@ -437,7 +437,7 @@
             }
 
             if (role === 'admin' && pass !== "1234") {
-                alert("Incorrect Admin Password! (Hint: use 1234)");
+                alert("Incorrect Admin Password! (Hint: use)");
                 return;
             }
 
@@ -527,7 +527,7 @@
                 qty,
                 category,
                 size: size || "Standard Size",
-                desc: desc || "Quality mattress from New Bombay Mattress Murlipura.",
+                desc: desc || "Quality mattress from New Bombay Mattress.",
                 image
             };
 
@@ -612,7 +612,7 @@
                 return;
             }
 
-            let msg = `Hello New Bombay Mattress Murlipura,%0AI want to place an order for the following items:%0A%0A`;
+            let msg = `Hello New Bombay Mattress,%0AI want to place an order for the following items:%0A%0A`;
             let total = 0;
 
             cartList.forEach((item, idx) => {
